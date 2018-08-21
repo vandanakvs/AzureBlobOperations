@@ -20,3 +20,5 @@ To instantiate the BlobActions class you need azure storage account, storage key
 _documentActions = new BlobActions("_Enter_AzureStorageName_", "_Enter_AzureStorageKey_", "_containerName_", "_maxRetryValue_", _logger);
 ```
 Enter these values and you will be able to perform the blob operations.
+
+It is wriiten in asp.net core framework
