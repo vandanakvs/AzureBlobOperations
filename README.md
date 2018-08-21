@@ -13,7 +13,7 @@ Using parallel programming to upload number of files parallelly
 3.	Download file – bytes or text
 4.	Delete a file
 
-Using [Polly](https://github.com/App-vNext/Polly) for retry mechanism.
+Using [Polly](https://github.com/App-vNext/Polly) for retry mechanism. - Polly is a .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner.
 
 To instantiate the BlobActions class you need azure storage account, storage key, container name, max retry value to perform blob operations and logger object
 ```
